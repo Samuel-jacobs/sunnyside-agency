@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/Samuel-jacobs/sunnyside-agency)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Samuel-jacobs/sunnyside-agency](https://github.com/Samuel-jacobs/sunnyside-agency)
+- Live Site URL: [https://samuel-jacobs.github.io/sunnyside-agency/](https://samuel-jacobs.github.io/sunnyside-agency/)
 
 ## My process
 
