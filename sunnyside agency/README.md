@@ -41,30 +41,34 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- bootstrap4
+- HTML5
+- CSS3
+- BOOTSRAP 4
 
 
 ### What I learned
 
 during the course of working on this project, i learned a few things and reinforced my knowledge on other things.
+
 One thing i learned was how to use images with different sizes on different screen sizes. This makes it easier for users
 when loading pages on their browsers asthe browser selects the appropraite image that suits whatever screen size in use.
+
  This was done by using the following syntax
  ```html 
 <picture>
 <source media="(max/min-width: xpx)" srcset="image.jpg">
 </picture>
 ```
-the picture elements gives more flexibility in specifying image resources
+the <picture> elements gives more flexibility in specifying image resources 
+ 
 the media element defines the screen size at which a particular image is used
+ 
 the srcset defines the image file path, it is used when you need to include more than one image 
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I intend to work more on using css flexbox and grid for responsive design in my subsequent projects
 
 ### Useful resources
 
