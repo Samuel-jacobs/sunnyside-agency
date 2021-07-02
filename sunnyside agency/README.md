@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Samuel-jacobs/sunnyside-agency/tree/main/sunnyside%20agency)
+- Solution URL: [solution](https://github.com/Samuel-jacobs/sunnyside-agency/tree/main/sunnyside%20agency)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
