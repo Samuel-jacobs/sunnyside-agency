@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution](https://github.com/Samuel-jacobs/sunnyside-agency)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -72,10 +72,10 @@ I intend to work more on using css flexbox or css grids for making responive pag
 
 ### Useful resources
 
-- [resource 1](https://https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- [resource 1- developer.mozilla.org article](https://https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
   This article helped me understand how use different image sizes for different screen size. I think it might be helpful
   for anyone still trying to understand the concept
-- [resource 2](https://www.w3schools.com) - This helped me when I got stuck trying to remember a syntax or a css style.
+- [resource 2- w3schools.com](https://www.w3schools.com) - This helped me when I got stuck trying to remember a syntax or a css style.
 
 
 
