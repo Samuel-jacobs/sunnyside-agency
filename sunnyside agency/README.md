@@ -59,11 +59,11 @@ when loading pages on their browsers asthe browser selects the appropraite image
 <source media="(max/min-width: xpx)" srcset="image.jpg">
 </picture>
 ```
-the <picture> elements gives more flexibility in specifying image resources 
+the ```html <picture> ```elements gives more flexibility in specifying image resources 
  
-the media element defines the screen size at which a particular image is used
+the ```html media ``` element defines the screen size at which a particular image is used
  
-the srcset defines the image file path, it is used when you need to include more than one image 
+the ```html srcset ``` defines the image file path, it is used when you need to include more than one image 
 
 
 ### Continued development
