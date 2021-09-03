@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-during the course of working on this project, i learned a few things and reinforced my knowledge on other things.
+during the course of working on this project, i learned a few things and brushed up my knowledge on other things.
 
 One thing i learned was how to use images with different sizes on different screen sizes. This makes it easier for users
 when loading pages on their browsers asthe browser selects the appropraite image that suits whatever screen size in use.
@@ -81,6 +81,7 @@ I intend to work more on using css flexbox or css grids for making responive pag
 
 ## Author
 
+- website - [samuel jacobs](https://samueljacobs.netlify.app)
 - Frontend Mentor - [@samuel-jacobs](https://www.frontendmentor.io/profile/samuel-jacobs)
 - Twitter - [@_samueljacobs_](https://www.twitter.com/_samueljacobs_)
 
