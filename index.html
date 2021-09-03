@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title> sunnyside agency </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <!-- Bootstrap CSS -->
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Bootstrap CSS -->	
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> 
 	<link href='https://fonts.googleapis.com/css?family=Barlow Semi Condensed' rel='stylesheet'>
 	<link href='https://fonts.googleapis.com/css?family=Fraunces' rel='stylesheet'>
-	<link href="style.css" rel="stylesheet" >
-	<title> Sunnyside Agency Landing Page | frontend mentor </title>
-</head>
+	<link href="style.css" rel="stylesheet" type="text/css"> 
+</head> 
 <body> 
 <!-- navigation -->
-<header>
-<nav class="navbar navbar-expand-md  fixed-top">
-	<a class="navbar-brand" href="#"> <img src="images/logo.svg" alt="sunnyside logo"> </a>
+
+<nav id="navbar" class="navbar navbar-expand-md  fixed-top bg">
+	<a class="navbar-brand" href="index.html"> <img src="images/logo.svg"> </a>
 	<button class="navbar-toggler" type="button"  data-toggle="collapse" data-target="#collapsibleNavbar">
-		<span> <img src="images/icon-hamburger.svg" alt="icon for navbar toggle"> </span>
+		<span> <img src="images/icon-hamburger.svg"> </span>
 	</button>
 	<div class="collapse navbar-collapse" id="collapsibleNavbar">
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item pr-2">
+			<li class="nav-item">
 				<a class="nav-link" href="#"> About </a>
 			</li>
-			<li class="nav-item pl-2 pr-2">
+			<li class="nav-item">
 				<a class="nav-link" href="#"> Services </a> 
 			</li>
-			<li class="nav-item pr-2 pl-2">
+			<li class="nav-item">
 				<a class="nav-link" href="#"> Projects </a> 
 			</li>
-			<li class="nav-item pl-2 pr-2 active">
+			<li class="nav-item active">
 				<a class="nav-link" href="#"> Contact </a> 
 			</li>
 		</ul>
 	</div>
-</nav>
+</nav>  
+
 
  <!-- carousel -->
 <div class="carousel-inner">
 	<div class="carousel-item active">
 		<picture>
-			<source media="(max-width: 768px)" srcset="images/mobile/image-header.jpg">
-			<source media="(min-width: 768px)" srcset="images/desktop/image-header.jpg">
-			<img src="images/desktop/image-header.jpg" height="100%" width="100%" alt="header image">
+			<source media="(max-width: 991px)" srcset="images/mobile/image-header.jpg">
+			<source media="(min-width: 992px)" srcset="images/desktop/image-header.jpg">
+			<img src="images/desktop/image-header.jpg" height="100%" width="100%">
 		</picture>
 	</div>
 	<div class="carousel-caption">
 		<h1 class="font-weight-bold"> WE ARE CREATIVES </h1>
-		<img class="pt-5" src="images/icon-arrow-down.svg" alt="icon for arrow down">
+		<img class="pt-5" src="images/icon-arrow-down.svg">
 	</div>
 </div>
-</header>
+
+
+
 
 <!-- first section transform your brand-->
-<main>
 <div id="section1">
 	<div class="row no-gutters">
 		<div class="col-md-6 s1-image">
 			<picture>
-				<source media="(max-width: 768px)" srcset="images/mobile/image-transform.jpg">
-				<source media="(min-width: 768px)" srcset="images/desktop/image-transform.jpg">
-				<img src="images/desktop/image-transform.jpg" height="100%" width="100%" alt="image transform">
+				<source media="(max-width: 991px)" srcset="images/mobile/image-transform.jpg">
+				<source media="(min-width: 992px)" srcset="images/desktop/image-transform.jpg">
+				<img src="images/desktop/image-transform.jpg" height="100%" width="100%">
 			</picture>
 				
 		</div>
@@ -83,9 +85,9 @@
 	<div class="row no-gutters">
 		<div class="col-md-6 s2-image">
 			<picture>
-				<source media="(max-width: 768px)" srcset="images/mobile/image-stand-out.jpg">
-				<source media="(min-width: 768px)" srcset="images/desktop/image-stand-out.jpg">
-				<img src="images/desktop/image-stand-out.jpg" height="100%" width="100%" alt="image stand out">
+				<source media="(max-width: 991px)" srcset="images/mobile/image-stand-out.jpg">
+				<source media="(min-width: 992px)" srcset="images/desktop/image-stand-out.jpg">
+				<img src="images/desktop/image-stand-out.jpg" height="100%" width="100%">
 			</picture>
 		</div>
 		<div class="col-md-6 s2-text">
@@ -106,8 +108,8 @@
 		<div class="col-md-6 col-sm-6">
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-graphic-design.jpg">
-				<source media="(min-width: 768px)" srcset="images/desktop/image-graphic-design.jpg">
-				<img src="image/desktop/image-graphic-design.jpg" height="100%" width="100%" alt="image for graphic design">
+				<source media="(min-width: 767px)" srcset="images/desktop/image-graphic-design.jpg">
+				<img src="image/desktop/image-graphic-design.jpg" height="100%" width="100%">
 			</picture>	
 			<div class="graphic-design">
 				<h3 class="font-weight-bold caption">Graphic design</h3>
@@ -118,8 +120,8 @@
 		<div class="col-md-6 col-sm-6">
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-photography.jpg">
-				<source media="(min-width: 768px)" srcset="images/desktop/image-photography.jpg">
-				<img src="images/desktop/image-photography.jpg" height="100%" width="100%" alt="image for photography">
+				<source media="(min-width: 767px)" srcset="images/desktop/image-photography.jpg">
+				<img src="images/desktop/image-photography.jpg" height="100%" width="100%">
 			</picture>
 			<div class="photography">
 				<h3 class="font-weight-bold caption"> Photography </h3>
@@ -134,20 +136,20 @@
 <div id="section4">
 	<h3 class="text-center text-secondary caption client"> Client Testimonials </h3>
 	<div class="row mt-5 text">
-		<div class="col-md-4 col-sm-4">
-			<img src="images/image-emily.jpg" class="mx-auto d-block rounded-circle mb-4" alt="profile of emily">
+		<div class="col-md-4 col-sm-4 pt-3 pb-3">
+			<img src="images/image-emily.jpg" class="mx-auto d-block rounded-circle mb-4">
 				<p class="text-center">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
 				<p class="text-center"> <span class="font-weight-bold"> Emily R. </span></br>
 				<span class="text-secondary"> Marketing Director </span> </p>		
 		</div>
-		<div class="col-md-4 col-sm-4">
-			<img src="images/image-thomas.jpg" class="mx-auto d-block rounded-circle mb-4 thomas" alt="profile of thomas">
+		<div class="col-md-4 col-sm-4 pt-3 pb-3">
+			<img src="images/image-thomas.jpg" class="mx-auto d-block rounded-circle mb-4 thomas">
 			<p class="text-center">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience. </p>
 			<p class="text-center"><span class="font-weight-bold"> Thomas S. </span> </br>
 			<span class="text-secondary"> Chief Operating Officer </span></p>
 		</div>
-		<div class="col-md-4 col-sm-4">
-			<img src="images/image-jennie.jpg" class="mx-auto d-block rounded-circle mb-4 jennie" alt="profile for jennie">
+		<div class="col-md-4 col-sm-4 pt-3 pb-3">
+			<img src="images/image-jennie.jpg" class="mx-auto d-block rounded-circle mb-4 jennie">
 			<p class="text-center"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! </p>
 			<p class="text-center"> <span class="font-weight-bold">  Jennie F. </span></br>
 			 <span class="text-secondary"> Business Owner </span> </p>
@@ -163,35 +165,34 @@
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-gallery-milkbottles.jpg">
 				<source media="(min-width: 768px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
-				<img src="images/desktop/image-gallery-milkbottles.jpg" height="100%" width="100%" alt=" gallery image milkbottles">
+				<img src="images/desktop/image-gallery-milkbottles.jpg" height="100%" width="100%">
 			</picture>	
 		</div>
 		<div class="col-md-3 col-sm-6 col-6">
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-gallery-orange.jpg">
 				<source media="(min-width: 768px)" srcset="images/desktop/image-gallery-orange.jpg">
-				<img src="images/desktop/image-gallery-orange.jpg" height="100%" width="100%" alt="gallery image orange">
+				<img src="images/desktop/image-gallery-orange.jpg" height="100%" width="100%">
 			</picture>	
 		</div>
 		<div class="col-md-3 col-sm-6 col-6">
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-gallery-cone.jpg">
 				<source media="(min-width: 768px)" srcset="images/desktop/image-gallery-cone.jpg">
-				<img src="images/desktop/image-gallery-cone.jpg" height="100%" width="100%" alt="gallery image cone">
+				<img src="images/desktop/image-gallery-cone.jpg" height="100%" width="100%">
 			</picture>	
 		</div>
 		<div class="col-md-3 col-sm-6 col-6">
 			<picture>
 				<source media="(max-width: 768px)" srcset="images/mobile/image-gallery-sugar-cubes.jpg">
 				<source media="(min-width: 768px)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
-				<img src="images/desktop/image-gallery-sugarcubes.jpg" height="100%" width="100%" alt="gallery image sugarcubes">
+				<img src="images/desktop/image-gallery-sugarcubes.jpg" height="100%" width="100%">
 			</picture>	
 		</div>
 	</div>
 </div>
-</main>
+
 <!-- footer -->
-<footer>
 <div id="footer">
 	<h3 class="font-weight-bold"> sunnyside </h3>
 	<div>
@@ -201,10 +202,10 @@
 		<a href="#" class="pl-2 footer-link"> Contact </a>
 	</div>
 	<div class="pt-5">
-		<a href="#" class="icon-link"> <img src="images/icon-facebook.svg" class="facebook pr-2" alt="facebook icon"> </a>
-		<a href="#" class="icon-link"> <img src="images/icon-instagram.svg" class="instagram pr-2 pl-2" alt="instagram icon"> </a>
-		<a href="#" class="icon-link"> <img src="images/icon-twitter.svg" class="twitter pr-2 pl-2" alt="twitter icon"> </a>
-		<a href="#" class="icon-link"> <img src="images/icon-pinterest.svg" class="pinterest pl-2" alt="pinterest icon"> </a>
+		<a href="#" class="icon-link"> <img src="images/icon-facebook.svg" class="facebook pr-2"> </a>
+		<a href="#" class="icon-link"> <img src="images/icon-instagram.svg" class="instagram pr-2 pl-2"> </a>
+		<a href="#" class="icon-link"> <img src="images/icon-twitter.svg" class="twitter pr-2 pl-2"> </a>
+		<a href="#" class="icon-link"> <img src="images/icon-pinterest.svg" class="pinterest pl-2"> </a>
 		
 	</div>
 	 <div class="attribution">
@@ -212,13 +213,19 @@
 		Coded by <a href="#">samuel jacobs</a>.
 	</div>
 </div>
-</footer>
   
-  
+	
 	<!-- scripts -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- script to change background color of navbar on scroll -->
+	<script>
+		$(window).scroll(function(){
+		$('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
+		});
+	</script>
+	
 	
 </body>
 </html> 
