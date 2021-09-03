@@ -7,13 +7,11 @@ html, body{
 	font-size: 18px;
 	
 }
-img {
+img.images {
 	height: 100%;
 	width: 100%;
 }
-img.icons {
-	height: auto;
-}
+
 
 .navbar {
 	font-weight: 600;
